@@ -1,0 +1,1346 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    overflow-x: hidden
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+a:hover,
+a {
+    text-decoration: none;
+}
+
+.navfix {
+    background: rgba(0, 0, 0, .7) !important
+}
+
+.navfix ul li a {
+    padding: 20px 10px
+}
+
+.navfix .icone i {
+    margin: 15px 22px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h2,
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+.pl {
+    padding-left: 0;
+}
+
+.pr {
+    padding-right: 0;
+}
+
+.plr {
+    padding-left: 0;
+    padding-right: 0
+}
+
+
+/*nav part start*/
+
+.mynav {
+    position: fixed;
+    background: transparent;
+    width: 100%;
+    z-index: 999;
+    transition: all .5s
+}
+
+.logo img {
+    height: 50px;
+    margin-top: 10px;
+}
+
+#moto ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 16px;
+    text-transform: uppercase;
+}
+
+#moto ul li a:hover {
+    color: #f0d839;
+    transition: .4s
+}
+
+#moto .icone i {
+    font-size: 20px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 20px 22px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#moto .icone i:hover {
+    color: #cd0a2d;
+    background-color: #fff;
+    transition: .4s
+}
+
+
+/*nav part end*/
+
+
+/* banner part start */
+
+.banner_bg {
+    background-image: url('../img/banner.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    padding-bottom: 155px
+}
+
+.banner .row {
+    height: 100vh;
+}
+
+.banner_caption h2 {
+    color: #fff;
+    font-size: 85px;
+    font-family: 'Euphoria Script', cursive;
+    margin-top: 155px;
+    line-height: 0.75;
+    font-weight: 500;
+}
+
+
+/* banner part end */
+
+
+/*destination part start*/
+
+.destination {
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.destination .triangle {
+    height: 0;
+    width: 0;
+    border-top: 91px solid transparent;
+    border-right: 91px solid transparent;
+    border-left: 91px solid #cd0a2d;
+    border-bottom: 91px solid #cd0a2d;
+    position: absolute;
+    bottom: 206px;
+    left: -2px;
+}
+
+.destination .triangle_content {
+    top: -32px;
+    left: -68px;
+    position: absolute;
+}
+
+.destination .triangle_content h3 {
+    color: #fff;
+    font-size: 56px;
+}
+
+.destination .triangle_content p {
+    color: #fff;
+    font-size: 21px;
+}
+
+.destination_content h3 {
+    color: #202020;
+    font-size: 26px;
+    padding-top: 31px;
+}
+
+.destination_content p {
+    color: #676767;
+    font-size: 17px;
+    margin: 20px 0px 34px;
+}
+
+.destination .button {
+    color: #fff;
+    font-size: 21px;
+    height: 38px;
+    width: 114px;
+    padding: 12px 22px;
+    background-color: #cd0a2d;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.destination .button:hover {
+    color: #c60909;
+    background-color: transparent;
+    border: 1px solid #c60909;
+    transition: .4s
+}
+
+
+/* destination part end */
+
+
+/* motorcycle part start */
+
+.motorcycle_part {
+    position: relative;
+}
+
+.motorcycle-left {
+    background-color: #cd0a2d;
+    padding: 40px 0px;
+}
+
+.motorcycle-left h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700
+}
+
+.motorcycle-left h3 {
+    color: #fff;
+    font-size: 26px;
+    padding-top: 50px;
+    font-weight: 500px;
+}
+
+.motorcycle-left p {
+    color: #fff;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-right: 50px
+}
+
+.motorcycle-right {
+    background-color: #fff;
+    margin: 65px 0px;
+    padding: 60px 0px 50px 60px;
+}
+
+.alex img {
+    float: left;
+    padding-right: 15px;
+}
+
+.alex h3 {
+    color: #5e5e5e;
+    font-size: 26px;
+}
+
+.alex span {
+    color: #979797;
+    font-size: 25px;
+}
+
+.alex p {
+    color: #808080;
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.Steve {
+    padding: 35px 0px;
+}
+
+.Steve img {
+    float: right;
+}
+
+.Steve h3 {
+    color: #5e5e5e;
+    font-size: 26px;
+}
+
+.Steve span {
+    color: #979797;
+    font-size: 25px;
+}
+
+.Steve p {
+    color: #808080;
+    font-size: 17px;
+    padding: 15px 0PX;
+}
+
+.Bill {
+    padding: 35px 0px;
+}
+
+.Bill img {
+    float: left;
+    padding-right: 15px;
+}
+
+.Bill h3 {
+    color: #5e5e5e;
+    font-size: 26px;
+}
+
+.Bill span {
+    color: #979797;
+    font-size: 25px;
+}
+
+.Bill p {
+    color: #808080;
+    font-size: 17px;
+    padding: 15px 0;
+}
+
+.moto img {
+    content: '';
+    position: absolute;
+    top: -67px;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+
+/*motorcycle part end*/
+
+
+/*rental part end*/
+
+.rental_header h2 {
+    color: #202020;
+    font-size: 68px;
+    font-weight: bold;
+    padding-top: 115px;
+}
+
+.rental_header h2 span {
+    color: #cd0a2d;
+}
+
+.rental_header p {
+    color: #5d5c5c;
+    font-size: 17px;
+    padding-top: 38px;
+    padding-bottom: 10px;
+}
+
+.rental_left {
+    widows: 570px;
+    background-color: #fff;
+    margin-top: 77px;
+}
+
+.rental_left img {
+    float: left;
+    padding: 38px 12px 63px 150px;
+}
+
+.rental_left h3 {
+    color: #212121;
+    font-size: 23px;
+    padding-top: 55px;
+}
+
+.rental_left h4 {
+    color: #212121;
+    font-size: 23px;
+}
+
+.rental_left p {
+    color: #202020;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.75;
+    padding-bottom: 138px;
+}
+
+.rental_right {
+    padding-left: 73px;
+}
+
+
+/*rental part end*/
+
+
+/*features part star*/
+
+.features_bg {
+    background-image: url(../img/features.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.features_bg img {
+    contain: '';
+    position: absolute;
+    bottom: -135px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.ractangle {
+    width: 100%;
+    background-color: rgba(26, 25, 25, .9)
+}
+
+.features-header h2 {
+    color: #fff;
+    font-size: 46px;
+    padding-top: 95px;
+    font-weight: bold;
+}
+
+.features-header span {
+    color: #cd0a2d;
+}
+
+.features-header p {
+    color: #fff;
+    font-size: 17px;
+    padding: 33px 15px 60px 30px;
+}
+
+.features_left {
+    background: rgba(205, 10, 45, .7);
+    width: 100%;
+    padding: 98px 56px;
+}
+
+.price_left {
+    float: left;
+    padding: 25px 0px;
+}
+
+.price_left h2 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Markazi Text', serif;
+    padding: 0px 32px;
+}
+
+.price_left h3 {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Markazi Text', serif;
+    padding-left: 32px;
+    line-height: 0
+}
+
+.price_right h2 {
+    color: #fff;
+    font-size: 86px;
+    font-family: 'Markazi Text', serif;
+}
+
+.price_right h3 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Markazi Text', serif;
+    line-height: 0
+}
+
+.features_left p {
+    color: #fff;
+    font-size: 17px;
+    padding: 112px 89px 56px 17px;
+    text-align: center;
+}
+
+.features_right {
+    padding: 59px 56px;
+}
+
+.countries {
+    float: left;
+    padding-left: 145px;
+    padding-right: 34px;
+}
+
+.countries h2 {
+    color: #fff;
+    font-size: 123px;
+    font-family: 'Markazi Text', serif;
+}
+
+.countries h3 {
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Markazi Text', serif;
+    line-height: 0
+}
+
+.km h2 {
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Markazi Text', serif;
+    padding-top: 63px;
+}
+
+.km h3 {
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Markazi Text', serif;
+    line-height: 0;
+}
+
+.features_right p {
+    color: #fff;
+    font-size: 17px;
+    padding: 112px 20px 56px 53px;
+    text-align: center;
+}
+
+
+/*features part end*/
+
+
+/*travel part start*/
+
+.travel-part {
+    padding-top: 134px;
+    position: relative;
+}
+
+.travel_header h2 {
+    color: #1a1919;
+    font-size: 68px;
+    font-weight: bold
+}
+
+.travel_header p {
+    color: #1a1919;
+    font-size: 17px;
+    padding: 42px 0px;
+}
+
+.travel .triangle {
+    height: 0;
+    width: 0;
+    border-top: 91px solid transparent;
+    border-right: 91px solid transparent;
+    border-left: 91px solid #c60909;
+    border-bottom: 91px solid #c60909;
+    position: absolute;
+    bottom: 210px;
+    left: -2px;
+}
+
+.travel .triangle-content {
+    bottom: 238px;
+    left: 22px;
+    position: absolute;
+}
+
+.travel .triangle-content h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.travel .triangle-content p {
+    color: #fff;
+    font-size: 21px;
+}
+
+.travel_content h3 {
+    color: #202020;
+    font-size: 26px;
+    padding: 34px 0px 17px;
+    font-weight: 700
+}
+
+.travel_content p {
+    color: #676767;
+    font-size: 17px;
+    padding-bottom: 64px
+}
+
+
+/*travel part end*/
+
+
+/*jurney part start*/
+
+.jurney_bg {
+    background-image: url(../img/journy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 152px 0px;
+    position: relative;
+}
+
+.jurney_bg h2 {
+    color: #fff;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.jurney_bg p {
+    color: #fff;
+    font-size: 17px;
+    padding: 29px 0 60px;
+}
+
+.jurney_icone i::before {
+    contain: '';
+    color: #cd0a2d;
+    font-size: 205px;
+    position: absolute;
+    bottom: -57px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*jurney part end*/
+
+
+/*contact part start*/
+
+.contact {
+    padding-top: 80px;
+}
+
+.contact_content h3 {
+    color: #181818;
+    font-size: 26px;
+}
+
+.contact_content i {
+    color: #181818;
+    font-size: 50px;
+    float: left;
+    margin: 10px 41px 10px 20px;
+}
+
+.contact_icone i {
+    color: #353535;
+    font-size: 29px;
+    width: 60px;
+    height: 60px;
+    border: 3px solid #f0d839;
+    border-radius: 50%;
+    margin: 64px 32px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.contact_icone i:hover {
+    color: #fff;
+    background-color: #c60909;
+    transition: .4s;
+}
+
+
+/*contact part end*/
+
+
+/*footer part start*/
+
+.footer {
+    background-color: #cd0a2d;
+    padding: 64px 0px;
+}
+
+.footer p {
+    color: #fff;
+}
+
+
+/*footer part end*/
+
+
+/*divice responsive part*/
+
+
+/* / Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .logo img {
+        margin: 10px 10px;
+    }
+    .mynav {
+        background-color: rgba(0, 0, 0, .7);
+        padding: 0px 0px;
+        text-align: center;
+        margin: 0px 0px
+    }
+    #moto ul li a {
+        padding: 16px 0px;
+    }
+    #moto .icone i {
+        font-size: 6px;
+        width: 20px;
+        height: 20px;
+        margin: 20px 15px;
+        line-height: 20px;
+        display: inline-block;
+    }
+    .banner-sm .banner_caption h2 {
+        font-size: 26px;
+    }
+    .destination-sm {
+        margin-bottom: 90px;
+    }
+    .destination-sm .destination .triangle {
+        bottom: 229px;
+        left: 10px;
+    }
+    .destination-sm .destination_content h3 {
+        font-size: 20px;
+    }
+    .moto img {
+        display: none;
+    }
+    .motorcycle-left-content {
+        padding-left: 35px;
+    }
+    .motorcycle-sm .motorcycle-left h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .motorcycle-sm .motorcycle-left h3 {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+    .motorcycle-sm .motorcycle-left p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+    .motorcycle-sm .motorcycle-right {
+        margin: 0px 0px;
+        padding: 32px 0px 32px 10px;
+    }
+    .motorcycle-sm .alex img,
+    .motorcycle-sm .Steve img,
+    .motorcycle-sm .Bill img {
+        height: 86px
+    }
+    .motorcycle-sm .alex h3,
+    .motorcycle-sm .Steve h3,
+    .motorcycle-sm .Bill h3 {
+        font-size: 20px;
+        padding-top: 10px
+    }
+    .motorcycle-sm .alex span,
+    .motorcycle-sm .Steve span,
+    .motorcycle-sm .Bill span {
+        font-size: 18px
+    }
+    .motorcycle-sm .alex p,
+    .motorcycle-sm .Steve p,
+    .motorcycle-sm .Bill p {
+        font-size: 12px;
+        padding: 6px 0;
+    }
+    .rental-sm .rental_header {
+        padding: 0px 0px;
+    }
+    .rental-sm .rental_left img {
+        padding: 46px 12px 26px 42px;
+    }
+    .rental-sm .rental_header h2 {
+        font-size: 30px;
+        padding-top: 52px;
+    }
+    .rental-sm .rental_header p {
+        font-size: 12px;
+        padding-top: 22px;
+        padding-bottom: 0px;
+    }
+    .rental-sm .rental_left p {
+        font-size: 13px;
+        padding: 0px 36px 54px 36px;
+    }
+    .rental-sm .rental_right {
+        padding-left: 0px;
+    }
+    .features-sm .features-header h2 {
+        font-size: 16px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .features-header p {
+        font-size: 12px;
+        padding: 17px 0px 46px;
+    }
+    .features_left {
+        padding: 12px 0px;
+    }
+    .features-sm .price_left {
+        padding: 15px 15px;
+    }
+    .features-sm .price_left h2 {
+        font-size: 34px;
+        padding: 0px 15px;
+    }
+    .features-sm .price_left h3 {
+        font-size: 19px;
+        padding-left: 16px;
+    }
+    .features-sm .price_right h2 {
+        font-size: 46px;
+    }
+    .features-sm .price_right h3 {
+        font-size: 30px;
+    }
+    .features-sm .features_left p {
+        font-size: 12px;
+        padding: 35px 16px 56px 16px;
+    }
+    .features_bg img {
+        display: none;
+    }
+    .features-sm .features_right {
+        padding: 20px 0px
+    }
+    .features-sm .countries {
+        padding: 12px 30px
+    }
+    .features-sm .countries h2 {
+        font-size: 60px
+    }
+    .features-sm .countries h3 {
+        font-size: 27px;
+    }
+    .features-sm .km h2 {
+        font-size: 36px;
+        padding-top: 30px;
+    }
+    .features-sm .km h3 {
+        font-size: 21px;
+    }
+    .features-sm .features_right p {
+        font-size: 12px;
+        padding: 68px 12px;
+    }
+    .travel-sm .travel-part {
+        padding-top: 40px;
+    }
+    .travel-sm .travel_header h2 {
+        font-size: 52px;
+    }
+    .travel-sm .travel_header p {
+        font-size: 12px;
+        padding: 30px 0px;
+    }
+    .travel-sm .travel .triangle {
+        bottom: 174px;
+        left: 10px;
+    }
+    .travel-sm .travel .triangle-content {
+        top: 216px;
+        left: 20px;
+    }
+    .travel-sm .travel .triangle-content p {
+        font-size: 17px;
+    }
+    .travel-sm .travel .triangle-content h2 {
+        font-size: 27px;
+    }
+    .travel-sm .travel_content h3 {
+        font-size: 22px;
+        padding: 34px 0px 17px;
+    }
+    .travel-sm .travel_content p {
+        font-size: 14px;
+        padding-bottom: 48px;
+    }
+    .jurney_bg .jurney-sm h2 {
+        font-size: 33px;
+    }
+    .jurney-sm p {
+        font-size: 12px;
+        padding: 20px 0 28px;
+    }
+    .jurney-sm i::before {
+        font-size: 106px;
+        bottom: -28px;
+        left: 50%;
+    }
+    .contact-sm .contact_content {
+        padding-top: 15px;
+    }
+    .contact-sm .contact_content i {
+        font-size: 35px;
+        margin: 14px 41px 10px 48px;
+    }
+    .contact-sm .contact_content h3 {
+        font-size: 18px;
+    }
+    .contact-sm .contact_content p {
+        font-size: 12px;
+    }
+    .contact-sm .contact_icone i {
+        font-size: 13px;
+        width: 28px;
+        height: 28px;
+        border: 2px solid #f0d839;
+        margin: 50px 1px;
+        line-height: 28px;
+    }
+}
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .mynav {
+        background-color: rgba(0, 0, 0, .7)
+    }
+    #moto ul li a {
+        font-size: 15px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    #moto .icone {
+        text-align: center;
+    }
+    .banner_caption h2 {
+        font-size: 45px;
+    }
+    .destination .triangle {
+        bottom: 185px;
+    }
+    .moto img {
+        display: none
+    }
+    .motorcycle-left {
+        padding: 40px 77px;
+    }
+    .motorcycle-right {
+        padding-left: 0px
+    }
+    .alex {
+        padding: 0px 40px;
+    }
+    .Steve {
+        padding: 35px 40px;
+    }
+    .Bill {
+        padding: 0px 40px;
+    }
+    .rental_header h2 {
+        font-size: 48px;
+    }
+    .rental_header p {
+        font-size: 14px
+    }
+    .rental_left p {
+        padding: 0px 85px 80px 85px;
+    }
+    .features-header h2 {
+        font-size: 29px;
+    }
+    .features_bg img {
+        display: none
+    }
+    .features_left {
+        text-align: center;
+    }
+    .price_right h2 {
+        font-size: 46px;
+    }
+    .price_left h2 {
+        font-size: 30px;
+    }
+    .features_right {
+        padding: 98px 34px;
+        text-align: center;
+    }
+    .countries {
+        padding-left: 56px;
+        padding-right: 20px;
+    }
+    .countries h2 {
+        font-size: 70px;
+    }
+    .km h2 {
+        font-size: 30px;
+        padding-top: 21px;
+    }
+    .travel .triangle {
+        bottom: 198px;
+    }
+    .travel .triangle-content {
+        bottom: 226px;
+    }
+    .jurney_bg h2 {
+        font-size: 55px;
+    }
+    .contact_content h3 {
+        font-size: 21px;
+    }
+    .contact_content p {
+        font-size: 12px;
+    }
+    .contact_icone i {
+        color: #353535;
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #f0d839;
+        margin: 64px 12px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .footer p {
+        font-size: 17px;
+        padding: 0px 103px;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mynav {
+        background-color: rgba(0, 0, 0, .7)
+    }
+    #moto ul li a {
+        font-size: 15px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    #moto .icone {
+        text-align: center;
+    }
+    .navfix {
+        background-color: none;
+    }
+    .banner_caption h2 {
+        font-size: 52px
+    }
+    .destination .triangle {
+        bottom: 192px
+    }
+    .destination_content h3 {
+        font-size: 15px;
+    }
+    .destination_content p {
+        font-size: 12px;
+    }
+    .moto img {
+        display: none;
+    }
+    .motorcycle-left h2 {
+        font-size: 26px
+    }
+    .motorcycle-left h3 {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+    .motorcycle-left p {
+        font-size: 14px
+    }
+    .motorcycle-right {
+        margin: 65px 0px;
+        padding: 50px 0px 0px 0px;
+    }
+    .alex img,
+    .Steve img,
+    .Bill img {
+        height: 100px
+    }
+    .Steve h3,
+    .Bill h3,
+    .alex h3 {
+        font-size: 22px
+    }
+    .Steve span,
+    .Bill span,
+    .alex span {
+        font-size: 18px
+    }
+    .Steve p,
+    .Bill p,
+    .alex p {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    .Bill {
+        padding: 0px 0px 20px 0px;
+    }
+    .rental_header h2 {
+        font-size: 48px;
+        padding-top: 80px;
+    }
+    .rental_header p {
+        font-size: 13px;
+        padding-top: 35px
+    }
+    .rental_left img {
+        padding: 6px 12px 6px 70px;
+    }
+    .rental_left h3 {
+        font-size: 18px;
+        padding-top: 28px;
+    }
+    .rental_left p {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .rental_left h4 {
+        font-size: 14px;
+    }
+    .features-header h2 {
+        font-size: 29px;
+    }
+    .features-header p {
+        font-size: 12px
+    }
+    .features_bg img {
+        display: none
+    }
+    .features_left {
+        padding: 65px 56px;
+    }
+    .price_left {
+        padding: 15px 0px;
+    }
+    .price_right h2 {
+        font-size: 46px;
+    }
+    .price_right h3 {
+        font-size: 30px
+    }
+    .price_left h2 {
+        font-size: 30px;
+        padding: 0px 26px
+    }
+    .countries {
+        padding-left: 0px;
+        padding-right: 13px;
+    }
+    .countries h2 {
+        font-size: 70px;
+    }
+    .countries h3 {
+        font-size: 36px
+    }
+    .km h2 {
+        font-size: 30px;
+        padding-top: 21px;
+    }
+    .features_bg img {
+        display: none
+    }
+    .features_right p {
+        font-size: 13px;
+        padding: 98px 0px;
+    }
+    .features_left p {
+        font-size: 13px;
+        padding: 98px 0px;
+    }
+    .travel .triangle {
+        bottom: 198px;
+    }
+    .travel .triangle-content {
+        top: 140px;
+    }
+    .travel .triangle-content h2 {
+        font-size: 25px;
+    }
+    .travel_content h3 {
+        font-size: 16px;
+    }
+    .travel_content p {
+        font-size: 14px;
+    }
+    .jurney_bg h2 {
+        font-size: 66px;
+    }
+    .contact_content i {
+        font-size: 40px;
+        margin: 14px 13px 0px 0px;
+    }
+    .contact_content h3 {
+        font-size: 21px;
+    }
+    .contact_content p {
+        font-size: 12px;
+    }
+    .contact_icone i {
+        font-size: 15px;
+        width: 40px;
+        height: 40px;
+        border: 2px solid #f0d839;
+        margin: 80px 17px;
+        line-height: 40px;
+    }
+    .footer {
+        font-size: 12px;
+        padding: 30px 0px;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .logo img {
+        margin: 10px 10px;
+    }
+    .mynav {
+        padding: 0px 0px;
+        margin: 0px 0px
+    }
+    .navfix ul li a {
+        padding: 20px 10px
+    }
+    .navfix .icone i {
+        margin: 15px 10px
+    }
+    #moto {
+        background-color: none;
+    }
+    #moto ul li a {
+        font-size: 15px;
+        padding: 24px 10px;
+    }
+    #moto .icone i {
+        font-size: 15px;
+        width: 35px;
+        height: 35px;
+        margin: 20px 10px;
+        line-height: 35px;
+    }
+    .banner_caption h2 {
+        font-size: 71px;
+    }
+    .destination .triangle {
+        bottom: 218px;
+    }
+    .destination_content h3 {
+        font-size: 15px;
+        padding-top: 30px;
+    }
+    .motorcycle-left h2 {
+        font-size: 34px;
+    }
+    .motorcycle-left p {
+        font-size: 13px;
+    }
+    .alex,
+    .Bill {
+        padding: 0px 0px;
+    }
+    .Steve {
+        padding: 10px 0px;
+    }
+    .alex img,
+    .Steve img,
+    .Bill img {
+        height: 119px;
+    }
+    .alex h3,
+    .Steve h3,
+    .Bill h3 {
+        font-size: 26px;
+        margin-top: 0px
+    }
+    .alex span,
+    .Steve span,
+    .Bill span {
+        font-size: 20px;
+    }
+    .alex p,
+    .Steve p,
+    .Bill p {
+        font-size: 13px;
+    }
+    .rental_header h2 {
+        font-size: 65px;
+    }
+    .rental_left p {
+        font-size: 14px;
+        line-height: 1.5;
+        padding-bottom: 91px;
+    }
+    .features-header h2 {
+        font-size: 40px;
+    }
+    .price_left {
+        padding: 16px 31px 15px 0px;
+    }
+    .price_left h2 {
+        font-size: 40px;
+        padding: 0px 0px;
+    }
+    .price_left h3 {
+        font-size: 22px;
+        padding-left: 0px;
+    }
+    .price_right h2 {
+        font-size: 60px;
+    }
+    .price_right h3 {
+        font-size: 25px;
+    }
+    .features_right {
+        padding: 77px 56px;
+    }
+    .countries {
+        padding-left: 90px;
+        padding-right: 20px;
+    }
+    .countries h2 {
+        font-size: 70px;
+    }
+    .countries h3 {
+        font-size: 32px;
+    }
+    .km h2 {
+        font-size: 40px;
+        padding-top: 32px;
+    }
+    .km h3 {
+        font-size: 22px;
+    }
+    .travel .triangle {
+        bottom: 261px;
+    }
+    .travel .triangle-content {
+        top: 200px;
+    }
+    .contact_content i {
+        margin: 10px 30px 10px 20px;
+    }
+    .contact_icone i {
+        margin: 80px 20px;
+    }
+    .footer {
+        padding: 24px 0px;
+    }
+}
